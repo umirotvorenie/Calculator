@@ -219,5 +219,12 @@ namespace Calculator
                 MessageBox.Show("Вы не ввели число");
             }
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.Show();
+            this.Hide();
+        }
     }
 }

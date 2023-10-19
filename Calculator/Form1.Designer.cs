@@ -49,6 +49,7 @@
             label1 = new Label();
             button17 = new Button();
             button18 = new Button();
+            button19 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -305,12 +306,26 @@
             button18.UseVisualStyleBackColor = false;
             button18.Click += button18_Click;
             // 
+            // button19
+            // 
+            button19.BackColor = SystemColors.ActiveCaption;
+            button19.Cursor = Cursors.Hand;
+            button19.FlatStyle = FlatStyle.Flat;
+            button19.Location = new Point(286, 225);
+            button19.Name = "button19";
+            button19.Size = new Size(101, 44);
+            button19.TabIndex = 20;
+            button19.Text = "Назад";
+            button19.UseVisualStyleBackColor = false;
+            button19.Click += button19_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(324, 296);
+            ClientSize = new Size(399, 305);
+            Controls.Add(button19);
             Controls.Add(button18);
             Controls.Add(button17);
             Controls.Add(label1);
@@ -360,5 +375,6 @@
         private Label label1;
         private Button button17;
         private Button button18;
+        private Button button19;
     }
 }
